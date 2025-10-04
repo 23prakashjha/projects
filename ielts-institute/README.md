@@ -12,7 +12,7 @@ A modern, responsive IELTS preparation web application built with **React** and 
 - ✅ Mobile-first design using Tailwind CSS
 - ✅ Clean code structure and reusable components
 
-Start the Development Server
+Start the Development Server-
 npm run dev
 
 Design Choices
