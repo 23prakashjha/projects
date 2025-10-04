@@ -1,16 +1,28 @@
-# React + Vite
+# 🎓 IELTS Preparation Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive IELTS preparation web application built with **React** and **Tailwind CSS**. The app includes learning modules, a contact form, and a polished hero section to help users prepare for their IELTS exam with confidence.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- ✅ Responsive Hero section with CTA
+- ✅ Dynamic IELTS Courses with images
+- ✅ Contact form with styled inputs and clean layout
+- ✅ Mobile-first design using Tailwind CSS
+- ✅ Clean code structure and reusable components
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Start the Development Server
+npm run dev
 
-## Expanding the ESLint configuration
+Design Choices
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Tailwind CSS was used for rapid development and utility-first styling.
+
+The Hero section uses large typography and visual hierarchy to draw attention.
+
+Cards for courses provide a clean and modular way to display information with engaging visuals.
+
+The Contact form is split into two visually distinct panels to increase clarity and accessibility.
+
+Layout is optimized for both mobile and desktop with responsive grid and flexbox utilities.
